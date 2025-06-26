@@ -1,7 +1,7 @@
 # TAKE A NOTE Uygulaması
 
 ## Proje Hakkında
-Bu Electron tabanlı masaüstü uygulaması ile kullanıcılar not ekleyebilir, düzenleyebilir, silebilir ve silinen notları geri alabilir. Silinen notlar filtrelenerek sadece silinenler gösterilebilir.Notlar kalıcı olarak **Electron Store** kullanılarak yerel diskte saklanır.
+Electron tabanlı masaüstü uygulaması ile kullanıcılar not ekleyebilir, düzenleyebilir, silebilir ve silinen notları geri alabilir. Silinen notlar filtrelenerek sadece silinenler gösterilebilir. Notlar kalıcı olarak **Electron Store** kullanılarak yerel diskte saklanır.
 
 ## Özellikler
 - Yeni not ekleme
