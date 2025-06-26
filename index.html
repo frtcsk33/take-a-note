@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take A Note</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div id="noteInputContainer">  
+        
+            <input type="text" id="noteInput" placeholder="Yeni not girin..." />
+            <button class="noteSaveBtn" onclick="addNote()">Kaydet</button>
+      
+            <label id="showDeletedLabel">
+                <input type="checkbox" id="showDeleted" />
+                <span>Silinenleri Göster</span>
+            </label>     
+        </div>
+
+        <div class="note-options">
+            <ul id="noteList"></ul>
+        </div>
+
+        <div id="editModal">
+
+            <textarea id="editTextArea" rows="5" cols="30"></textarea><br />
+            <button class="saveEditBtn">Kaydet</button>
+            <button class="cancelEditBtn">İptal</button>
+        </div>
+
+        <div id="modalBackdrop" >
+
+        </div>
+    </div>
+    <script src="renderer.js"></script>
+    
+</body>
+</html> 
+
